@@ -1,7 +1,7 @@
 {
-	"name": "Dozen",
+	"name": "Apostrophe and Ampersand",
 	"version": "1.0.0",
-	"description": "A simple starter website for the 11ty static site generator.",
+	"description": "Apostrophe and Ampersand is a grassroots, free-range literary magazine (a zine!) that's an excuse to make art and celebrate our friends' creative talents.",
 	"main": "index.html",
 	"scripts": {
 		"start": "eleventy --serve",
@@ -9,7 +9,7 @@
 	},
 	"keywords": [],
 	"author": "Cam Coulter",
-	"license": "MIT",
+	"license": "",
 	"dependencies": {
 		"@11ty/eleventy": "^3.0.0",
 		"@11ty/eleventy-img": "^6.0.4"

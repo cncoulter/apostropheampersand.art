@@ -1,9 +1,9 @@
 {
-	"url": "https://dozen.camcoulter.com",
-	"siteName": "Dozen",
-	"siteDescription": "A simple starter website for the 11ty static site generator. Hopefully this gets used to spin off at least a dozen websites.",
-	"author": "Cam Coulter",
-	"rights": "&copy; Cam Coulter 2025",
+	"url": "https://TK.com",
+	"siteName": "Apostrophe and Ampersand",
+	"siteDescription": "Apostrophe and Ampersand is a grassroots, free-range literary magazine (a zine!) that's an excuse to make art and celebrate our friends' creative talents.",
+	"author": "TK",
+	"rights": "&copy; TK 2025",
 	"defaultImage": {
 		"url": "/assets/images/pexels-roman-odintsov-5847181-300.jpeg",
 		"alt": "A tray with a dozen raw muffins before baking."

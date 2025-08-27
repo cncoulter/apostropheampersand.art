@@ -1,0 +1,16 @@
+---
+layout: layouts/page.njk
+title: "Issue #1: Firsts"
+permalink: /issue-01/
+eleventyExcludeFromCollections: true
+---
+
+<p>Published August 2025.</p>
+
+<h2>Contents</h2>
+
+<ol>
+	{% for piece in collections.issue01 | sortBy('order') %}
+		<li>“<a href="{{ piece.url }}">{{ piece.data.title }}</a>” by {% for code_name in piece.data.author %}{% for person in collections.people | personIs(code_name) %}{{ person.data.title }}{% endfor %}{% if loop.revindex0 and (loop.length > 2) %},{% endif %} {% if loop.revindex0 == 1 %}and{% endif %} {% endfor %}</li>
+	{% endfor %}
+</ol>

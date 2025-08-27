@@ -134,6 +134,11 @@ module.exports = function (eleventyConfig) {
     	return DateTime.fromJSDate(dateObj).toISO();
   	});
 
+	eleventyConfig.addFilter("sortBy", (collection, order) => {
+		return collection.sort((a, b) => a.data[order] - b.data[order]);
+  	});
+
+
 	// Create the filter: categorizedUnder
 	// Given collections.categorizedPages and a category
 	// Returns an array with all pages that are categorizedUnder that category.
@@ -178,7 +183,22 @@ module.exports = function (eleventyConfig) {
 		});
 		return relevantPages;
 	});
-	
+
+	// Create the filter: authorIncludes
+	// Given a collection of pages and a code_name
+	// Returns an array with all pages in that collection that have author set to that code_name in their front matter (for a single author) or include that code_name within the listed authors (for multiple authors).
+	// Example Use: {% for item in collections.post | authorIncludes(code_name) %}
+	// Example Return: an array of all pages that include author: - code_name
+	eleventyConfig.addFilter("authorIncludes", function(collection, code_name) {
+        return collection.filter((page) => {
+            const authors = page.data.author;
+            if (Array.isArray(authors)) {
+                return authors.includes(code_name);
+            }
+            return authors === code_name;
+    	});
+	});
+
 	// Create the filter: personIs
 	// Given collections.people and a code_name
 	// Returns an array with all pages in collections.people that have code_name set to given code_name in their front matter. (Ideally, it returns an array of one. If the array includes multiple pages, ensure all code_names are unique.)

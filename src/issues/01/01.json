@@ -1,0 +1,7 @@
+{
+	"layout": "layouts/piece.njk",
+	"tags": ["piece", "issue01"],
+	"permalink": "/issue-01/{{ page.fileSlug }}/",
+	"issueLabel": "Issue #1: Firsts",
+	"issueURL": "/issue-01/"
+}

@@ -9,8 +9,8 @@
             "url": "/about/"
         },
         {
-            "label": "Blog",
-            "url": "/blog/"
+            "label": "Issues",
+            "url": "/issues/"
         },
         {
             "label": "People",
@@ -29,6 +29,12 @@
         {
             "label": "Subscribe",
             "url": "/subscribe/"
+        }
+    ],
+    "issues": [
+        {
+            "label": "Issue #1: Firsts",
+            "url": "/issue-01/"
         }
     ]
 }

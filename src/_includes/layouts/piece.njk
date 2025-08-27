@@ -1,0 +1,24 @@
+---
+layout: layouts/base.njk
+---
+
+<h1 id="main-content" tabindex="-1">{{ title | safe }}</h1>
+
+{% if author %}
+	<p>by
+		{% for code_name in author %}
+			{% for person in collections.people | personIs(code_name) %}<a href="/people/{{ person.page.fileSlug }}/">{{ person.data.title }}</a>{% endfor %}{% if loop.revindex0 and (loop.length > 2) %},{% endif %} {% if loop.revindex0 == 1 %}and{% endif %}
+		{% endfor %}
+	</p>
+{% endif %}
+
+<p><a href="{{ issueURL }}">{{ issueLabel }}</a> | {{ type }} | {{ size }}</p>
+
+{{ content | safe }}
+
+{% if author %}
+{% for code_name in author %}{% for person in collections.people | personIs(code_name) %}
+<h2>About {{ person.data.title }}</h2>
+	{{ person.content | safe }}
+{% endfor %}{% endfor %}
+{% endif %}

@@ -1,0 +1,10 @@
+---
+layout: layouts/page.njk
+title: Issues
+---
+
+<ol>
+	{% for link in navigation.issues %}
+		<li><a href="{{ link.url }}">{{ link.label }}</a></li>
+	{% endfor %}
+</ol>
