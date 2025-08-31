@@ -9,7 +9,7 @@ layout: layouts/base.njk
 <h2>Contributions by {{ title }}</h2>
 
 <ol>
-    {% for post in collections.piece | authorIncludes(code_name) | reverse %}
+    {% for post in collections.piece | authorIncludes(code_name) %}
         {% include "partials/post-item.html" %}                  
     {% endfor %}
 </ol>
