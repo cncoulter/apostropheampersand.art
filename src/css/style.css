@@ -201,6 +201,7 @@ a[href="#main-content"]:focus {
 
 .banner {
 	font-family: var(--ft-system);
+	margin-block-start: 1em;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	align-items: center;
