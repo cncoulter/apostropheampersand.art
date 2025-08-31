@@ -22,15 +22,13 @@ permalink: /feed.xml
 	<id>{{ meta.url}}{{ post.url }}</id>
 	<link rel="alternate" type="text/html" href="{{ meta.url}}{{ post.url }}"/>
 	<title type="html">{{ post.data.title | escape }}</title>
+	<summary>{{ post.data.issueLabel }} | {{ post.data.type }} | {{ post.data.size }}</summary>
 	<published>{{ post.data.date | machineReadable }}</published>
 	<updated>{% if post.data.date_modified %}{{ post.data.date_modified | machineReadable }}{% else %}{{ post.data.date | machineReadable }}{% endif %}</updated>
 	{% if post.data.author %}{% for code_name in post.data.author %}{% for person in collections.people | personIs(code_name) %}<author>
 		<name>{{ person.data.title }}</name>
 	</author>{% endfor %}{% endfor %}{% endif %}
-	<content type="html">
-		&lt;p&gt;{{ post.data.issueLabel }} | {{ post.data.type }} | {{ post.data.size }}&lt;/p&gt;
-		{{ post.content | escape }}
-	</content>
+	<content type="html">{{ post.content | escape }}</content>
 </entry>
 {% endfor %}
 </feed>
