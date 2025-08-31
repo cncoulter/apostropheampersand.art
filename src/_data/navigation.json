@@ -19,16 +19,16 @@
     ],
     "footerLinks": [
         {
+            "label": "Subscribe",
+            "url": "/subscribe/"
+        },
+        {
             "label": "About This Site",
             "url": "/about-this-site/"
         },
         {
             "label": "Site Map",
             "url": "/sitemap/"
-        },
-        {
-            "label": "Subscribe",
-            "url": "/subscribe/"
         }
     ],
     "issues": [
