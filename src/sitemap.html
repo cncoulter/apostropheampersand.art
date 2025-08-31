@@ -8,30 +8,26 @@ title: Site Map
 <ul>
 	<li><a href="/">Home</a></li>
 	<li><a href="/about/">About</a></li>
-	<li><a href="/blog/">Blog</a>
-		<ul>
-			<li><a href="/blog/archive-single-page/">Blog Archive (Single Page)</a></li>
-			<li><a href="/blog/archive-paginated/1/">Blog Archive (Paginated)</a></li>
-			<li><a href="/blog/categories-single-page/">Blog Categories (Single Page)</a></li>
-			<li><a href="/blog/categories-paginated/">Blog Categories (Paginated)</a></li>
-			<li><a href="/blog/tags-single-page/">Blog Tags (Single Page)</a></li>
-			<li><a href="/blog/tags-paginated/">Blog Tags (Paginated)</a></li>
-		</ul>
-	</li>
-	<li><a href="/people/">People</a>
-		<ul>{% for person in collections.people %}
-			<li><a href="{{ person.url }}">{{ person.data.title }}</a></li>
-		{% endfor %}</ul>
-	</li>
+	<li><a href="/issues/">Issues</a></li>
 	<li><a href="/about-this-site/">About This Site</a></li>
 	<li><a href="/sitemap/">Site Map</a></li>
 	<li><a href="/subscribe/">Subscribe</a></li>
 </ul>
 
-<h2>Blog Posts</h2>
+<h2>People</h2>
 
-<ol reversed>
-{% for post in collections.post | reverse %}
-	<li><time datetime="{{ post.date | machineReadable }}">{{ post.date | humanReadableDate }}</time>: <a href="{{ post.url }}">{{ post.data.title | safe }}</a></li>
+<ul>
+{% for person in collections.people %}
+	<li><a href="{{ person.url }}">{{ person.data.title }}</a></li>
 {% endfor %}
+</ul>
+
+<h2>Issues</h2>
+
+<h3>{{ navigation.issues[0].label }}</h3>
+
+<ol>
+	{% for piece in collections.issue01 | sortBy('order') %}
+		<li>“<a href="{{ piece.url }}">{{ piece.data.title }}</a>” by {% for code_name in piece.data.author %}{% for person in collections.people | personIs(code_name) %}{{ person.data.title }}{% endfor %}{% if loop.revindex0 and (loop.length > 2) %},{% endif %} {% if loop.revindex0 == 1 %}and{% endif %} {% endfor %}</li>
+	{% endfor %}
 </ol>
