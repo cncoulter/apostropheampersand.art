@@ -5,34 +5,28 @@ title: About This Site
 
 ## Privacy Policy
 
-I do not collect data about website visitors. There are no analytics on this site. There are no tracking cookies on this site.
+We do not collect data about website visitors. There are no analytics on this site. There are no tracking cookies on this site.
 
-This site is hosted with Netlify. If you’re interested, here is a link to [Netlify’s privacy policy](https://www.netlify.com/privacy/).
-
-This policy was last updated on August 15, 2025.
+This policy was last updated on August 31, 2025.
 
 ## Accessibility Statement
 
-I want this site to work well for people with disabilities and people who use assistive technologies such as screen readers, and I aim for this website to conform to the [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/) level AA.
+We want this site to work well for people with disabilities and people who use assistive technologies such as screen readers, and we aim for this website to conform to the [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/) level AA.
 
-If you come across any accessibility or usability issues on this site, please let me know. You can [file an issue on GitHub](https://www.w3.org/TR/WCAG22/) or email me at contact@camcoulter.com.
+If you come across any accessibility or usability issues on this site, please let us know. You can [file an issue on GitHub](https://www.w3.org/TR/WCAG22/) or email our webmaster at contact@camcoulter.com.
 
-This statement was last updated on August 15, 2025.
+This statement was last updated on August 31, 2025.
 
 ## Website Design & Hosting
 
-I use the static site generator [Eleventy](https://www.11ty.dev/) (11ty) to knit this site together. (That's kind of the whole point of this site, isn't it?)
-
-[This website's codebase](https://github.com/cncoulter/dozen) is hosted on GitHub.
-
-This site is hosted with [Netlify](https://www.netlify.com/).
+This website was forked from [Dozen](https://dozen.camcoulter.com/), and we use the static site generator [Eleventy](https://www.11ty.dev/) (11ty) to knit this site together.
 
 ## Copyright
 
-This website (code and content) is created by and copyright Cam Coulter, unless where otherwise noted.
+All pieces in <cite>Apostrophe and Ampersand</cite> are copyright their respective creators and are published here with their permission. If you would like to reprint any pieces published here, please contact the relevant creators directly to request their permission. If you contributed a piece to this publication and would like us to remove it, please email our webmaster at contact@camcoulter.com.
 
-The code for this website is licensed under the [MIT License](https://choosealicense.com/licenses/mit/), unless otherwise noted. The MIT License is a permissive, open-source license. By all means, fork this project to set up your own website!
+The underlying website code is created by and copyright Cam Coulter, unless where otherwise noted, and is licensed under the [MIT License](https://choosealicense.com/licenses/mit/), unless otherwise noted. The MIT License is a permissive, open-source license.
 
-This website’s favicon is the [cupcake emoji](https://favicon.io/emoji-favicons/cupcake) from the open-source project Twemoji. The graphic is copyright 2020 Twitter, Inc and other contributors, and it’s licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. Thanks to [favicon.io](https://favicon.io/) for making it easy.
+This website’s favicon incorporates the apostrophe and ampersand glyphs from the [Comfortaa](https://fonts.google.com/specimen/Comfortaa) font designed by Johan Aakerlund and licensed under the SIL Open Font License version 1.1. Thanks to [favicon.io](https://favicon.io/) for making it easy.
 
 The [robots.txt](/robots.txt) file is [thanks to Neil Clarke](https://neil-clarke.com/block-the-bots-that-feed-ai-models-by-scraping-your-website/), and the [ai.txt](/ai.txt) is [thanks to spawning.ai](https://site.spawning.ai/spawning-ai-txt).
