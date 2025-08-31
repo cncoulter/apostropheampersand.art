@@ -18,7 +18,7 @@ layout: layouts/base.njk
 
 {% if author %}
 {% for code_name in author %}{% for person in collections.people | personIs(code_name) %}
-<h2>About {{ person.data.title }}</h2>
+{% if not person.data.no_bio %}<h2>About {{ person.data.title }}</h2>{% endif %}
 	{{ person.content | safe }}
 {% endfor %}{% endfor %}
 {% endif %}
