@@ -262,6 +262,7 @@ a[href="#main-content"]:focus {
 .contentinfo {
 	font-family: var(--ft-system);
 	margin-block-start: 5em;
+	margin-block-end: 1em;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 1em;
