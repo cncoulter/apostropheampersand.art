@@ -153,6 +153,13 @@ img {
 	display: block;
 	max-width: 100%;
 	height: auto;
+	font-style: italic;
+}
+
+img::before {
+	display: block;
+	padding: 1em;
+	border: 2px dashed;
 }
 
 figure {
