@@ -9,9 +9,9 @@ title: Site Map
 	<li><a href="/">Home</a></li>
 	<li><a href="/about/">About</a></li>
 	<li><a href="/issues/">Issues</a></li>
+	<li><a href="/subscribe/">Subscribe</a></li>
 	<li><a href="/about-this-site/">About This Site</a></li>
 	<li><a href="/sitemap/">Site Map</a></li>
-	<li><a href="/subscribe/">Subscribe</a></li>
 </ul>
 
 <h2>People</h2>
@@ -24,7 +24,7 @@ title: Site Map
 
 <h2>Issues</h2>
 
-<h3>{{ navigation.issues[0].label }}</h3>
+<h3><a href="/issue-01/">{{ navigation.issues[0].label }}</a></h3>
 
 <ol>
 	{% for piece in collections.issue01 | sortBy('order') %}
