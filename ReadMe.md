@@ -4,7 +4,6 @@ Apostrophe and Ampersand is a grassroots, free-range literary magazine (a zine!)
 
 ## To do
 
-* alt text for "Unreality & the Yellow Blouse"
 * Update defaultImage in meta.json
 * Update url in meta.json
 
