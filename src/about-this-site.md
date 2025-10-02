@@ -7,15 +7,15 @@ title: About This Site
 
 We do not collect data about website visitors. There are no analytics on this site. There are no tracking cookies on this site.
 
-This policy was last updated on August 31, 2025.
+This policy was last updated on October 2, 2025.
 
 ## Accessibility Statement
 
 We want this site to work well for people with disabilities and people who use assistive technologies such as screen readers, and we aim for this website to conform to the [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/) level AA.
 
-If you come across any accessibility or usability issues on this site, please let us know. You can [file an issue on GitHub](https://www.w3.org/TR/WCAG22/) or email our webmaster at contact@camcoulter.com.
+If you come across any accessibility or usability issues on this site, please let us know. You can email our webmaster at contact@camcoulter.com.
 
-This statement was last updated on August 31, 2025.
+This statement was last updated on October 2, 2025.
 
 ## Website Design & Hosting
 
