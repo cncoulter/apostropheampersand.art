@@ -1,11 +1,11 @@
 ---
 layout: layouts/page.njk
-title: "Issue #1: Firsts"
+title: "Issue One: Firsts"
 permalink: /issue-01/
 eleventyExcludeFromCollections: ["piece", "issue01"]
 ---
 
-<p>Published August 2025.</p>
+<p>Published October 2025.</p>
 
 <h2>Contents</h2>
 
@@ -14,3 +14,11 @@ eleventyExcludeFromCollections: ["piece", "issue01"]
 		<li>“<a href="{{ piece.url }}">{{ piece.data.title }}</a>” by {% for code_name in piece.data.author %}{% for person in collections.people | personIs(code_name) %}{{ person.data.title }}{% endfor %}{% if loop.revindex0 and (loop.length > 2) %},{% endif %} {% if loop.revindex0 == 1 %}and{% endif %} {% endfor %}</li>
 	{% endfor %}
 </ol>
+
+<h2>Download</h2>
+
+<ul>
+	<li>EPUB</li>
+	<li>Accessible PDF for reading</li>
+	<li>Print-and-Fold PDF</li>
+</ul>
