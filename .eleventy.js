@@ -94,6 +94,16 @@ module.exports = function (eleventyConfig) {
 	// | Filters |
 	// |---------|
 
+	// Create the filter: sortAlphabetically
+  	// Given a collection,
+	// Sorts it alphabetically.
+	// Example Use: {% for person in collections.people | sortAlphabetically %}
+	eleventyConfig.addFilter("sortAlphabetically", collection => {
+		return [...collection].sort((a, b) => {
+      		return a.data.title.localeCompare(b.data.title);
+    	});
+  	});
+
 	// Create the filter: humanReadableDateTime
 	// See: https://github.com/moment/luxon/blob/master/docs/formatting.md
   	// Given an ISO 8601 datetime value,

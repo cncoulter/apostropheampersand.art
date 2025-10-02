@@ -6,7 +6,7 @@ eleventyExcludeFromCollections: ["people"]
 ---
 
 <ul>
-{% for person in collections.people %}
+{% for person in collections.people | sortAlphabetically %}
 	<li><a href="{{ person.url }}">{{ person.data.title }}</a></li>
 {% endfor %}
 </ul>

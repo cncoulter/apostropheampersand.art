@@ -4,7 +4,15 @@ Apostrophe and Ampersand is a grassroots, free-range literary magazine (a zine!)
 
 ## To do
 
-* meta.json: update URL
+* ~~Ask for contributor bio~~
+* ~~Copyedit bios~~
+* Finalize EPUB
+* Create accessible PDF?
+* Publish
+	* Get domain
+	* meta.json: update URL
+	* Push to Github
+	* Configure DNS
 
 ## Workflow Notes
 
