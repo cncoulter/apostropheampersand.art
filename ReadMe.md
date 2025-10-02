@@ -7,6 +7,8 @@ Apostrophe and Ampersand is a grassroots, free-range literary magazine (a zine!)
 * ~~Ask for contributor bio~~
 * ~~Copyedit bios~~
 * Finalize EPUB
+	* Content
+	* Design
 * Create accessible PDF?
 * Publish
 	* Get domain
