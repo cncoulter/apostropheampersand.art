@@ -4,23 +4,22 @@ Apostrophe and Ampersand is a grassroots, free-range literary magazine (a zine!)
 
 ## To do
 
-* ~~Ask for contributor bio~~
-* ~~Copyedit bios~~
-* Finalize EPUB
-	* ~~Content~~
-	* ~~Design~~
-	* QA+metadata
-* Create accessible PDF?
+* Finalize
+	* Link for Daniel?
 * Publish
-	* Get domain
-	* meta.json: update URL
+	* ~~Get domain~~
+	* ~~meta.json: update URL~~
 	* Push to Github
 	* Configure DNS
+* Create accessible PDF?
+* Future improvements
+	* Update head with more descriptive metadata
 
 ## Workflow Notes
 
 * Prepare an HTML file for each piece.
 	* Use typed characters for single quotes, double quotes, en and em dashes, ellipses
 	* However, use &amp; for ampersands
+	* XHTML-friendly
 * Once pieces are finalized, copy them into web version.
 * Once web version is finalized, copy pieces into EPUB.

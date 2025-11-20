@@ -7,6 +7,7 @@ To digitally subscribe to <cite>Apostrophe and Ampersand</cite>, copy the link b
 
 <p style="text-align: center;"><a href="/feed.xml">Atom feed for <cite>Apostrophe and Ampersand</cite></a></p>
 
+If you want to receive the print edition for future issues, please reach out, let us know, and send us your address.
 
 ## What are web feeds?
 

@@ -40,6 +40,7 @@ module.exports = function (eleventyConfig) {
 
 	// Copy these files from src/ to public/ without modifying them.
 	eleventyConfig.addPassthroughCopy("./src/css/");
+	eleventyConfig.addPassthroughCopy("./src/assets/ebooks/");
 	eleventyConfig.addPassthroughCopy("./src/*.txt");
 	eleventyConfig.addPassthroughCopy("./src/*.png");
 	eleventyConfig.addPassthroughCopy("./src/*.ico");

@@ -16,6 +16,15 @@ layout: layouts/base.njk
 
 {{ content | safe }}
 
+{% if authorsNote or relatedWork %}
+<h2>More</h2>
+{% if moreNote %}<p>{{ moreNote }}</p>{% endif %}
+<ul>
+	{% if authorsNote %}<li><a href="{{ authorsNote }}">Author’s Note</a></li>{% endif %}
+	{% if relatedWork %}<li>Related Work: <a href="{{ relatedWork }}">{{ relatedWorkTitle }}</a></li>{% endif %}
+</ul>
+{% endif %}
+
 {% if author %}
 {% for code_name in author %}{% for person in collections.people | personIs(code_name) %}
 {% if not person.data.no_bio %}<h2>About {{ person.data.title }}</h2>{% endif %}
