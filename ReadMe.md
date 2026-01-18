@@ -4,14 +4,6 @@ Apostrophe and Ampersand is a grassroots, free-range literary magazine (a zine!)
 
 ## To do
 
-* Finalize
-	* Link for Daniel?
-* Publish
-	* ~~Get domain~~
-	* ~~meta.json: update URL~~
-	* Push to Github
-	* Configure DNS
-* Create accessible PDF?
 * Future improvements
 	* Update head with more descriptive metadata
 
