@@ -11,11 +11,15 @@ This policy was last updated on November 19, 2025.
 
 ## Accessibility Statement
 
-We want this site to work well for people with disabilities and people who use assistive technologies such as screen readers, and we aim for this website to conform to the [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/) level AA.
+<cite>Apostrophe and Ampersand</cite> is a multi-format publication. We plan to make each issue available on the web, as an ebook, and in print.
 
-If you come across any accessibility or usability issues on this site, please let us know. You can email our webmaster at cam@apostropheampersand.art.
+We want our website and our ebooks to work well for people with disabilities and people who use assistive technologies such as screen readers. We aim for our website to conform to the [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/) Level AA and for our ebooks to conform to [EPUB Accessibility 1.1](https://www.w3.org/TR/epub-a11y-11/) - WCAG 2.2 Level AA.
 
-This statement was last updated on November 19, 2025.
+If you come across accessibility or usability issues on the website, in an ebook, or in print, please let us know. You can email Cam at cam@apostropheampersand.art.
+
+We have made PDFs of the print version available on our website for those who may want to print their own copies. Please note that those files are scanned and untagged PDFs and are not digitally accessible. The print versions are artfully designed but do not contain any unique content. For accessible digital versions, please view the website or ebook.
+
+This statement was last updated on January 29, 2026.
 
 ## Website Design & Hosting
 
